@@ -1,0 +1,1 @@
+svn st | sed -e 's/?//' | xargs -I {} mv {} ~./local/share/Trash
